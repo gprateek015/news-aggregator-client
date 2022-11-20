@@ -1,0 +1,39 @@
+.App {
+  background: linear-gradient(#7975f6, rgb(231, 230, 255) 50%, #8884f8);
+  width: 100vw !important;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+}
+
+.cloudImg {
+  width: 450px;
+  position: absolute;
+  left: 33%;
+  /* margin: 50px ; */
+  top: -25px;
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  /* font-weight: 500; */
+  font-size: 50px;
+  margin: 50px auto 50px;
+  color: rgb(45, 39, 83);
+}
+
+.preference {
+  display: flex;
+  justify-content: center;
+
+  h4 {
+    display: inline-block;
+    margin: 10px 20px;
+    cursor: pointer;
+    padding: 0 10px;
+  }
+
+  .active {
+    text-decoration: underline;
+  }
+}

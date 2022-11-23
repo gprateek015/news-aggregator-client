@@ -36,7 +36,7 @@ const App = () => {
   return (
     <div className='App'>
       <img src={CloudOutline} className='cloudImg' />
-      <h1 style={{ textAlign: 'center' }}>News Reader</h1>
+      <h1 style={{ textAlign: 'center' }}>News Aggregator</h1>
       <div className='preference'>
         {preferences.map((pref, ind) => (
           <h4
